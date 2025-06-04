@@ -41,3 +41,7 @@ enum Estado {
 console.log(Estado.Activo);      // 10
 console.log(Estado.Pendiente);   // 30
 
+//tambien se puede acceder a la inversa, a la propiedad en vez de el valor, con corchetes como el indice de un array
+
+console.log(Estado[20]) // Inactivo
+
