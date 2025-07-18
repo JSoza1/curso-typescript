@@ -1,5 +1,5 @@
 // El "for...of" se utiliza para recorrer estructuras iterables (como arrays, strings, sets)
-// simplificando el código al acceder directamente a los valores de cada elemento.
+// simplificando el código al acceder directamente a los VALORES de cada elemento.
 // Evita tener que declarar una variable de índice o preocuparse por el paso de iteración,
 // ya que recorre automáticamente cada elemento en orden.
 
@@ -52,8 +52,10 @@ const lenguajes = new Set(["JavaScript", "Python", "Java", "JavaScript"]);
 for (const lenguaje of lenguajes) {
   console.log(lenguaje);
 }
+// se muestra en consola
+//JavaScript
+//Python
+//Java
 
-
-
-
-
+// no repite VALORES duplicados en este caso "JavaScript"
+// es util para cuando queremos eliminar valores duplicados, o solo necesitamos 1 valor del mismo elemento.
